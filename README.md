@@ -77,8 +77,8 @@ To run the scripts, first clone this repository and then install the required Py
 
 **1. Clone the repository:**
 ```bash
-git clone https://github.com/[YOUR_USERNAME]/Python-Image-Segmentation-Techniques.git
-cd Python-Image-Segmentation-Techniques
+https://github.com/PasanAbeysekara/Image-Segmentation-Techniques.git
+cd Image-Segmentation-Techniques
 ```
 
 **2. Install dependencies:**

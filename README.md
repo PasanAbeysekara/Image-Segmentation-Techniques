@@ -66,7 +66,7 @@ Region growing is an iterative, seed-based approach to segmentation. It starts f
 │       └── segmentation_results_ellipse.png
 ├── task1_otsu.py
 ├── task2_region_growing.py
-├── Assignment2_Report.pdf  (Optional)
+├── Assignment2_Report.pdf
 └── README.md
 ```
 

@@ -17,14 +17,14 @@ A practical implementation of classic image segmentation algorithms in Python us
 - [Installation](#-installation)
 - [Usage](#-usage)
 
-## 🎯 Overview
+## Overview
 
 Image segmentation is a critical step in computer vision, involving the partitioning of a digital image into multiple segments (sets of pixels, also known as objects). This process simplifies the representation of an image, making it easier to analyze. This repository explores two fundamental approaches:
 
 1.  **Thresholding-based Segmentation:** Classifies pixels based on their intensity relative to a given threshold.
 2.  **Region-based Segmentation:** Groups pixels into regions based on their similarity and proximity.
 
-## 🧠 Algorithms Implemented
+## Algorithms Implemented
 
 ### 1. Otsu's Binarization
 
@@ -51,7 +51,7 @@ Region growing is an iterative, seed-based approach to segmentation. It starts f
 ![Region Growing Result](results/task-2/segmentation_results_ellipse.png)
 <!-- **Action:** Upload one of your region growing result composites and replace this link. -->
 
-## 📁 File Structure
+## File Structure
 
 ```
 .
@@ -71,7 +71,7 @@ Region growing is an iterative, seed-based approach to segmentation. It starts f
 └── README.md
 ```
 
-## 🛠️ Installation
+## Installation
 
 To run the scripts, first clone this repository and then install the required Python libraries.
 
@@ -92,7 +92,7 @@ source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 pip install opencv-python numpy matplotlib
 ```
 
-## 🚀 Usage
+## Usage
 
 Both Python scripts are designed to be run directly. They will generate synthetic images, perform segmentation, display the results using Matplotlib, and save output files to the `results/` directory.
 

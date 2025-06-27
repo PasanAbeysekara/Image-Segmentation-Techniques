@@ -99,15 +99,13 @@ cd Image-Segmentation-Techniques
 **2. Install dependencies:**
 A virtual environment is recommended.
 ```bash
-# Create and activate a virtual environment
 python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+source venv/bin/activate
 
-# Install required libraries
 pip install opencv-python numpy matplotlib
 ```
 
-## 🚀 Usage
+## Usage
 
 The Python scripts are designed to be run directly. They will generate/load images, perform segmentation, display the results using Matplotlib, and save output files to the `results/` directory.
 

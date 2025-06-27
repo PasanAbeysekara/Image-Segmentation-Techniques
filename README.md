@@ -49,7 +49,7 @@ Image segmentation is a critical step in computer vision, involving the partitio
 
 ## Algorithms Implemented
 
-### 1. Otsu's Binarization
+### 1. Otsu's Thresholding
 
 Otsu's method is a powerful technique for automatic image thresholding. It is particularly effective for images that contain two classes of pixels (e.g., foreground and background) by finding the threshold that minimizes the intra-class variance.
 

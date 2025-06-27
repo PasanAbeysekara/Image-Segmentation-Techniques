@@ -48,6 +48,7 @@ Region growing is an iterative, seed-based approach to segmentation. It starts f
 
 **Result:**
 ![Region Growing Result](results/task-2/segmentation_results_rectangle.png)
+![Region Growing Result](results/task-2/segmentation_results_ellipse.png)
 <!-- **Action:** Upload one of your region growing result composites and replace this link. -->
 
 ## 📁 File Structure

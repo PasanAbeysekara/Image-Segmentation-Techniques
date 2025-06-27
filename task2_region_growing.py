@@ -87,7 +87,6 @@ if __name__ == "__main__":
     output_directory = "results/task-2"
     image_path = "input/brain_image.jpg"
 
-    # 1. Load the brain MRI image
     try:
         brain_img = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
         if brain_img is None:
@@ -99,7 +98,7 @@ if __name__ == "__main__":
         print(f"An error occurred while loading the image: {e}")
         exit()
 
-    # --- Test Case 1: Segmenting White Matter ---
+    # Test Case 1: Segmenting White Matter
     seeds_white_matter = [(215, 225)]
     threshold_white_matter = 15
     
@@ -107,7 +106,7 @@ if __name__ == "__main__":
     segmented_mask_wm = region_growing(brain_img.copy(), seeds_white_matter, threshold_val=threshold_white_matter)
     display_and_save_segmentation(brain_img, segmented_mask_wm, seeds_white_matter, output_directory, "white_matter")
 
-    # --- Test Case 2: Segmenting Gray Matter ---
+    # Test Case 2: Segmenting Gray Matter
     seeds_gray_matter = [(150, 150)]
     threshold_gray_matter = 15
     

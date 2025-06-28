@@ -54,7 +54,7 @@ def display_and_save_segmentation(original, segmented, seeds, output_dir, filena
     os.makedirs(output_dir, exist_ok=True)
     
     overlay = cv2.cvtColor(original, cv2.COLOR_GRAY2BGR)
-    overlay[segmented == 255] = [0, 0, 255] # Mark segmented area in blue
+    overlay[segmented == 255] = [0, 0, 255] # Mark segmented area in red
     for y, x in seeds:
         cv2.circle(overlay, (x, y), 3, (0, 255, 0), -1) # Mark seeds in green
 
